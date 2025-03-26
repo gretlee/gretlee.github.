@@ -1,0 +1,125 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+h1{
+    background-color: #c0392b;
+}
+h3{
+    background-color: #439988;
+    color: #f8f9fa;
+    text-align: center;
+}
+.w-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #34495e;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    background: #1abc9c;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background: #2c3e50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #1abc9c;
+    outline: none;
+    box-shadow: 0 0 5px rgba(26, 188, 156, 0.5);
+}
+
+.grid-container {
+    display: flex;
+  }
+.grid-item{
+        flex: 50%;
+        padding: 5px;
+      }
+  
+  

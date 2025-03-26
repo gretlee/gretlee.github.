@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frequently asked questions about food donation.">
+    <title>FAQ - CARE CRATE</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>SKT WELFARE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="request.html">Request Food</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <button class="question">How can I donate food?</button>
+            <div class="answer">
+                <p>You can donate food by filling out our donation form on the Donate page. We will coordinate the pickup or drop-off details.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="question">Who can request food?</button>
+            <div class="answer">
+                <p>Anyone in need can request food by completing the request form on our Request Food page.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="question">Is there a cost associated with food donation?</button>
+            <div class="answer">
+                <p>No, all donations and distributions are free. Our goal is to reduce food waste and support those in need.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="question">How do I contact support?</button>
+            <div class="answer">
+                <p>You can reach us through our Contact page for any assistance or inquiries.</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <footer>
+        <p>&copy; 2025 Food Donation System. All rights reserved.</p>
+    </footer>
+    <script>
+        document.querySelectorAll('.question').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
